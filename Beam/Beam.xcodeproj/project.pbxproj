@@ -12,6 +12,7 @@
 		4AD5C6E321C4A22F0035851E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD5C6E121C4A22F0035851E /* Main.storyboard */; };
 		4AD5C6E521C4A2300035851E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD5C6E421C4A2300035851E /* Assets.xcassets */; };
 		4AD5C6E821C4A2300035851E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD5C6E621C4A2300035851E /* LaunchScreen.storyboard */; };
+		4AD5C6F221C4ABFD0035851E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD5C6F021C4ABFD0035851E /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		4AD5C6E421C4A2300035851E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AD5C6E721C4A2300035851E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AD5C6E921C4A2300035851E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD5C6EF21C4ABFC0035851E /* Beam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beam-Bridging-Header.h"; sourceTree = "<group>"; };
+		4AD5C6F021C4ABFD0035851E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../SWRevealViewController/SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		4AD5C6F121C4ABFD0035851E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../SWRevealViewController/SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,14 @@
 			isa = PBXGroup;
 			children = (
 				4AD5C6DD21C4A22F0035851E /* AppDelegate.swift */,
+				4AD5C6F121C4ABFD0035851E /* SWRevealViewController.h */,
+				4AD5C6F021C4ABFD0035851E /* SWRevealViewController.m */,
 				4AD5C6DF21C4A22F0035851E /* ViewController.swift */,
 				4AD5C6E121C4A22F0035851E /* Main.storyboard */,
 				4AD5C6E421C4A2300035851E /* Assets.xcassets */,
 				4AD5C6E621C4A2300035851E /* LaunchScreen.storyboard */,
 				4AD5C6E921C4A2300035851E /* Info.plist */,
+				4AD5C6EF21C4ABFC0035851E /* Beam-Bridging-Header.h */,
 			);
 			path = Beam;
 			sourceTree = "<group>";
@@ -96,6 +103,7 @@
 				TargetAttributes = {
 					4AD5C6D921C4A22F0035851E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -137,6 +145,7 @@
 			files = (
 				4AD5C6E021C4A22F0035851E /* ViewController.swift in Sources */,
 				4AD5C6DE21C4A22F0035851E /* AppDelegate.swift in Sources */,
+				4AD5C6F221C4ABFD0035851E /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9P4SKX633D;
 				INFOPLIST_FILE = Beam/Info.plist;
@@ -289,6 +299,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hayatopia.Beam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Beam/Beam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9P4SKX633D;
 				INFOPLIST_FILE = Beam/Info.plist;
@@ -307,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hayatopia.Beam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Beam/Beam-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
