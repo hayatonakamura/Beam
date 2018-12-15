@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A92F67B21C4B05A005BC14B /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92F67A21C4B05A005BC14B /* NewViewController.swift */; };
 		4AD5C6DE21C4A22F0035851E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD5C6DD21C4A22F0035851E /* AppDelegate.swift */; };
 		4AD5C6E021C4A22F0035851E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD5C6DF21C4A22F0035851E /* ViewController.swift */; };
 		4AD5C6E321C4A22F0035851E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD5C6E121C4A22F0035851E /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A92F67A21C4B05A005BC14B /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		4AD5C6DA21C4A22F0035851E /* Beam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD5C6DD21C4A22F0035851E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AD5C6DF21C4A22F0035851E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				4AD5C6F021C4ABFD0035851E /* SWRevealViewController.m */,
 				4AD5C6DF21C4A22F0035851E /* ViewController.swift */,
 				4AD5C6E121C4A22F0035851E /* Main.storyboard */,
+				4A92F67A21C4B05A005BC14B /* NewViewController.swift */,
 				4AD5C6E421C4A2300035851E /* Assets.xcassets */,
 				4AD5C6E621C4A2300035851E /* LaunchScreen.storyboard */,
 				4AD5C6E921C4A2300035851E /* Info.plist */,
@@ -146,6 +149,7 @@
 				4AD5C6E021C4A22F0035851E /* ViewController.swift in Sources */,
 				4AD5C6DE21C4A22F0035851E /* AppDelegate.swift in Sources */,
 				4AD5C6F221C4ABFD0035851E /* SWRevealViewController.m in Sources */,
+				4A92F67B21C4B05A005BC14B /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
